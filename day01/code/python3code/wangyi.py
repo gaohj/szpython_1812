@@ -21,6 +21,7 @@ content = response.read().decode()
 print(content)
 
 comments_list = json.loads(content)
+print(comments_list)
 host_comments = comments_list['hotComments']
 for contents in  host_comments:
     nickname = contents['user']['nickname']

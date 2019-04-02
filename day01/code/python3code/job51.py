@@ -36,8 +36,7 @@ num = re.findall(num_re,strs)
 #获取第一个岗位信息
 jobname_re = '<div class="el">(.*?)</div>'
 joblist = re.findall(jobname_re,html,re.S)
-
-
+joblist.pop(0)
 # #print(joblist[0]) #这是第一个岗位的信息 多个标签
 #
 # #匹配岗位内容
@@ -48,7 +47,6 @@ joblist = re.findall(jobname_re,html,re.S)
 for job in joblist:
     jobnameone_re = 'onmousedown="">(.*?)</a>'
     jobnameone_list = re.findall(jobnameone_re, job, re.S)
-    print(jobnameone_list)
-    #print("岗位名称:",jobnameone_list[0].strip())
+    print("岗位名称:",jobnameone_list[0].strip())
 
 
