@@ -17,5 +17,5 @@ print(response.text)
 print("++++登陆之后"*10)
 url1 = "http://www.xbiquge.la/modules/article/bookcase.php"
 
-response1 = sessions.post(url1,headers=headers)
+response1 = sessions.get(url1,headers=headers,verify=False)#忽略ssl证书
 print(response1.text)
