@@ -81,7 +81,7 @@ def save(qq_job_list):
         duty=job['duty']
         require=job['require']
 
-        sql = "insert into job(name,address,type,num,duty,reqire1) value('%s','%s','%s','%d','%s','%s')" % (name,address,type,num,duty,require)
+        sql = """insert into job(name,address,type,num,duty,reqire1) value('%s','%s','%s','%d','%s','%s')""" % (name,address,type,num,duty,require)
         cursor.execute(sql)
         db.commit()
     cursor.close()
