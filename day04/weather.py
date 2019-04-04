@@ -44,13 +44,13 @@ def main():
         parse_page(url)
     ALL_DATA.sort(key=lambda data:data['max_temp'])
     print(ALL_DATA)
-    data = ALL_DATA[0:20]
+    data = ALL_DATA[0:10]
     cities = list(map(lambda x:x['city'],data))
     max_temp =  list(map(lambda x:x['max_temp'],data))
     #实例化Bar对象
-    charts = Bar("中国最高气温排行榜")
-    charts.add('',cities,max_temp)
-    charts.render('temp.html')
+    charts = Bar("中国最低气温排行榜")
+    charts.add('',cities,max_temp)#传值
+    charts.render('temp.html') #将数据渲染到页面上
 if __name__ == "__main__":
     main()
 
