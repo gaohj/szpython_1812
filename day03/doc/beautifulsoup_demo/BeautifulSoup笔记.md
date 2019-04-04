@@ -44,7 +44,7 @@ soup = BeautifulSoup(doc_html,'lxml')
 | Python标准库     | `BeautifulSoup(markup, "html.parser")`                       | Python的内置标准库执行速度适中文档容错能力强          | Python 2.7.3 or 3.2.2)前 的版本中文档容错能力差 |
 | lxml HTML 解析器 | `BeautifulSoup(markup, "lxml")`                              | 速度快文档容错能力强                                  | 需要安装C语言库                                 |
 | lxml XML 解析器  | `BeautifulSoup(markup, ["lxml", "xml"])``BeautifulSoup(markup, "xml")` | 速度快唯一支持XML的解析器                             | 需要安装C语言库                                 |
-| html5lib         | `BeautifulSoup(markup, "html5lib")`                          | 最好的容错性以浏览器的方式解析文档生成HTML5格式的文档 | 速度慢不依赖外部扩展                            |
+| html5lib         | `BeautifulSoup(markup, "html5lib")` 有的网站不标准 少了闭合标签 或者 html 标签 | 最好的容错性以浏览器的方式解析文档生成HTML5格式的文档 | 速度慢不依赖外部扩展                            |
 
 ### tag 
 
@@ -177,3 +177,4 @@ print(soup.a.previous_sibling)#上一个文本节点
 
 ## contents和children：
 返回某个标签下的直接子元素，其中也包括字符串。他们两的区别是：contents返回来的是一个列表，children返回的是一个迭代器。
+
