@@ -15,8 +15,10 @@ text = '''
 
 #利用etree.HTML，将字符串解析为HTML文档
 html = etree.HTML(text)
-
+#urls = html.xpath("//ul")
+urls = html.xpath("//a/@href")
+for url in urls:
+    print(etree.toString(url,encoding='utf-8').decode('utf-8'))
 # 按字符串序列化HTML文档
 result = etree.tostring(html)
-
 print(result)
