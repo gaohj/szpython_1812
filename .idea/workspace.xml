@@ -2,11 +2,340 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/code/doutula01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/code/doutula02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05/code/queue_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day05/code/threading_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/code/threading_demo1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/doutula02.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/code/doutula02.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/Lolita入我心忘记海洛因.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/cyka blyat.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/pikapika.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/sorry Idon't understand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/一个月2000块能买2100的娃娃（当场抓获）.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/一位不愿透露姓名的热心群主向你竖了个中指.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/一堆说不写就不写的作业.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/一米五八的目光.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/一群下流的人.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/一脸不泄.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/不爱了连语气都变了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/不知道小姐姐可能.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/不管你是谁只要你喜欢表情包咱们就是好朋友.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/与我相恋免费代练.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/丑丑的我也想要哥哥.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/丑逼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/为什么不给我发红包.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/为何你的头上一片绿呢.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/交易失败.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/亲爱的这并不是爱情.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/人终有一死.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/什么情况老实人开会吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/介绍一下我对象.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/以后这个人出现你们就狠狠地打.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/会打底的男人很多会打野的却没几个.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/会有猪头替我爱你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你不就仗着你丑在这瞎起哄.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你为了得到我竟然不择手段.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你也太变态了吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你什么意思.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你他妈最好去死死得远远的.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你们个个都是人才.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你别跟我蹬鼻子上脸.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你只字未提我爱你我却字字都是我愿意.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你喜欢我吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你在骗我.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你奶牛啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你好段友.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你妈的为什么.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你妈的都不死了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你媽的我来辅助.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你快醒醒啊~~.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你怎么回事老弟.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你敢拒绝我.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你是在挑衅我胖虎.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你根本就不爱我你只是想找个人打发时间.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你毁了我容忍傻逼的能力.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你的身边做一枚定时炸弹.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你瞅你今天这逼样了.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你等着我去叫人.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你算哪块小熊软糖.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你说怎么聊着聊着就没人了呢.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你这只臭猪.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你都是个大人物呢.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你马笑了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/你骂我我不怪你你妈已经已死谢罪了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/修仙者的沧桑你懂个屁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/俺来啦.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/做个人吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/傻逼拜拜不送.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/全都埋咯.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/再发一巴掌扇死你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/再看我就把你吃掉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/再见没什么好说的了.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/冬鲸鱼摆尾.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/净整那些没用的.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/几年级的啊这么屌.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/出来修仙吧你睡觉是没有前途的.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/出来混迟早要还的.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/别说了今晚就去开房.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/别说了我爱你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/别说话了来干一架吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/功夫警告.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/北京市计生委提醒您道路千万条安全第一条行房不规范孕棒两条杠.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/南无阿弥陀佛.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/卧槽卧槽卧槽牛逼真几把牛逼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/原来结局早已注定、再挣扎也是徒劳.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/反手又是一瓶.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/发张自拍吧我要打飞机了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/叭了个叭叭叭叭叭叭.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/可以给我摸下奶.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/可爱.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/台湾李宗瑞请赐教.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吃土.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吃土吞灰.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吃屎中.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吃我一jio.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/各位容我说一句话你们都是傻逼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吓得我抱起了你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吝啬.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/吨吨吨吨.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/听说你不想努力了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/听说要打架.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/呆住.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/呕.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/呼叫叔叔呼叫叔叔到请回答Over.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/咚矮10厘米.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/咬你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/咸鱼来了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/哇骑马.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/哭了熊猫人.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/哼数据而已（真他妈羡慕）.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/唱歌.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/啊（打篮球）.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/啪一把拔光.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/喝着从群主身上挤的奶.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/嘤嘤嘤.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/嘻嘻.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/国家落泪.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/在下黑虎阿福请赐教.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/在我草泥马.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/垃圾网友.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/处女加我头像本人.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/天下第一.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/天才闰土专属冰阔落.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/奥特曼的蔑视.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/女人只会勾走你的魂魄吸干你的营养.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/她的屁股有多大呢.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/好了好了你不要说了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/好说的好等下我就开车碾死你妈.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/妙啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/安静点好吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/宝宝要生气了曲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/将进酒卑莫停.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小女子不才愿以身下之洞吞尽官人上亿精兵.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小子别太器张老子不吃你这套.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小学生不好好玩王者荣耀来这里装什么逼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小宝贝.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小宝贝快藏好.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小熊猫扣了扣脑阔.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/小鸡吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/帝皇铠甲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/干嘛这样对我.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/底层群员.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/开车.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/开车车.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/弗拉明戈舞步.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/当我老婆吧求求你了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/很过分必须发说说.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/心碎完全心碎.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/忘了他吧我偷情养你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/快上车前面有空投.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/快跟我恋爱.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/快陪我睡觉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/恰鼻涕.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/恶龙咆哮.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/想你想要钻进你的怀里.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/想把房子卖了养你但是房东不肯.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/想蔡徐坤想的睡不着.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/憨笑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我TM怎么想不到这种水贴方法.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我不要凭什么.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我乃啦.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我也是醉了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我们没有钱.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我们的故事到此为止啦.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我先睡了你们继续修仙吧.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我去你妈的.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我叉你妈.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我反正咸鱼一条.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我只说一次你把耳朵凑过来.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我在仙界等你们.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我好想在小姐姐胸口哭一场顺便舔舔奶子.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我就喜欢交你这种下流的朋友.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我就纳闷了你们怎么这么有钱.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我已经是辣鸡了过来跟大佬打个招呼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我怎么这么没用.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我恨我自己竟然在为苏大强流泪.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我才不要.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我操.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我新九中的学生绝不轻易认输.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我有黄片.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我来恰你妈啦.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我来抓人了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我梁小黑怕过谁.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我没有针对任何人我说在座的都是垃.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我的确是个迷人的妹.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我看你是单身久了习惯了而已吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我肥宅很丑只爱二次元纸片人保持距离OK.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我胖虎极度嫌弃.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我能顶住.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我要两份色图.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我要哦泡.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我觉得你们应该被枪毙.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/我非常欣你做我的走狗吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/所以就说啊最怕的就是错的时间遇见对的人留下的全是遗憾.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/所谓富贵险中求.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/手舞足蹈.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/技师怎么还不来差钱还是咋滴.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/把你头像和性别对上了再来跟我装逼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/抽烟 中.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/拍下犯罪证据.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/拿图吱声不然小心我胖虎揍你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/拿小本记下来.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/拿这些钱买个峰糖马上滚.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/挠头熊猫.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/捂脸中.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/掐肉肉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/搞基吗.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/摸着良心说话.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/擦汗了.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/施主醒醒.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/旁边是傻四.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/早上好在座的各位骚货.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/是我不配了嘛.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/晚安算了我爱你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/有着很大的距离.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/朋友过两招.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/李凉和我干架我比较厉害所以我干李凉.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/来吃雪糕.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/来啊快活啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/来自妖艳贱货的不屑.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/极度不爽.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/梆梆梆梆.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/死了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/死仔发癫啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/比个爱心哦.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/永不手冲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/求大哥以后带我混.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/求求你别骚了品如都没衣服穿了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/没有人可以拒绝我.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/没生育能力的人真是可怜到处认儿子.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/泪旁相爱.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/洋葱王八.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/流下不争气的限洎.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/涨停发型.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/滑稽势力笑而不语.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/滑稽点赞.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/滚吧.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/烤肉机.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/然而梅菲斯特早已看穿了一切.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/照目前这个形势来看我应该自己输出了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/爸爸鬼灯泡时不许摇椅子.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/牛逼.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/物超所值购买.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/特么的吓死了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/猩猩折枝.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/猴子爬树.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/现在的年轻人啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/略略略你能拿我怎么办.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/番茄王八.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/疯狂暗示.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/痴果.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/皮卡丘眉头一皱发现事情并不简单.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/盯.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/直男我哪做错了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/直至死亡.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/看不起三厘米.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/看我七十二变.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/看我看我我是黄图.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/看见没有除了我全是舔狗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/睡了睡了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/睡睡睡你个大头鬼道友们都飞升成神了你还在睡.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/睡觉一起玩手机.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/睡觉不存在的.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/空气似乎凝结了我先走了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/突然噗呲.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/竟然比我还绿厉害.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/等我吹靓个头来砍你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/等生意.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/签到成功这是你的签到奖励.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/管理你死得好惨.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/篮子闷死你.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/给我亲一下听到没有.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/给我好好写作业.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/继续你麻痹.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/继续说啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/网恋.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/群主不在我就是老大.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/群主在我也还是老大.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/老子冒泡第一句就是群主是沙雕.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/聚众修仙.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/肥宅.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/胖子小黄鸡.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/胖小黄鸡吃薯片.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/能借我40万么我想骑HP4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/能借我5块钱买块士力架吗我也想横扫饥饿做回自己.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/能抱我这个200的宝吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/能说一句喜欢我吗今天是愚人节.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/能说句喜欢我吗今天是愚人节.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/脸都给你打歪.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/舔你.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/苏服.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/英雄联盟骨灰级玩家当事人现在就是后悔非常后悔.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/菜虚昆可以吃吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/萌妹同心其利断金.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/蔡徐坤.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/虎杀两羊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/蛟龙出海.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/行啊小老.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/要你管小娘们儿.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/要发就发这样的图知道吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/要开车了拿好车票不要抢人人有份.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/要是你觉得你说的才对那就打倒我啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/规则长方体固体物质空间移动工程师（搬砖）.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/觉得我丑的请给我50元不是我吹我可能一个都收不到.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/让我一个人再玩会儿你就当我已经睡了吧.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/让我看看你的嫩b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/讲理嘛.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/说实话这个点猪都已经起来吃饭了.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/说得好像真的似的.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/说得好有我当年的风范.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/起打球吗靓妹.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/轻轻贴近你的耳朵撒浪嘿呦.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/还你52天.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/还是你最沙雕啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/还有我我也要.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这个群还是你最多.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这位丑逼请你远离我的视线好吗.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这座城多了个伤心的人.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这座城少了个伤心的人.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这是个什么东西.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这是群什么人啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这样肥胖的我依旧在努力前行.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这知识它进不去脑子啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/这群没我发图片就形同废群.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/逮着个破逼图来回发你瞅瞅你那个逼样.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/那个…今天…过节有没有…那个…红包.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/那也太快乐辽.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/那你和我上床啊.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/钓的鱼中皇称的海上王.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/阿姨给你棒棒糖.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/阿尼陀佛.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/附近50已满赞完@我不然回不了.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/震惊.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/青蛙.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/靓仔我们不是那种人裤子先穿上.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/靓仔语塞.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/飞龙在天.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/麻痹整天@这个@那个.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/images/龟龟.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +344,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python1812$doutula02.coverage" NAME="doutula02 Coverage Results" MODIFIED="1554710658270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$qq.coverage" NAME="qq Coverage Results" MODIFIED="1554284731232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
     <SUITE FILE_PATH="coverage/python1812$quote.coverage" NAME="quote Coverage Results" MODIFIED="1554280894720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo1.coverage" NAME="threading_demo1 Coverage Results" MODIFIED="1554688246516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
@@ -59,13 +389,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="5502" />
+          <entry key="py" value="5728" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="5502" />
+          <entry key="Python" value="5728" />
         </counts>
       </usages-collector>
     </session>
@@ -75,13 +405,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/day05/code/doutula02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="336">
+              <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
-                <marker date="1554708805269" expanded="true" signature="500:1411" ph="..." />
-                <marker date="1554708805269" expanded="true" signature="555:810" ph="..." />
-                <marker date="1554708805269" expanded="true" signature="1422:1810" ph="..." />
+                <marker date="1554710658257" expanded="true" signature="546:1927" ph="..." />
+                <marker date="1554710658257" expanded="true" signature="601:856" ph="..." />
+                <marker date="1554710658257" expanded="true" signature="1938:2326" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,7 +421,7 @@
         <entry file="file://$PROJECT_DIR$/day05/code/doutula01.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="521">
-              <caret line="22" column="55" lean-forward="true" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
+              <caret line="22" column="55" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
               <folding>
                 <element signature="e#17#32#0" expanded="true" />
                 <marker date="1554707338864" expanded="true" signature="124:748" ph="..." />
@@ -210,7 +540,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.doutula01">
+  <component name="RunManager" selected="Python.doutula02">
     <configuration name="doutula01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python1812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,6 +555,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/doutula01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="doutula02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/doutula02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,42 +651,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="threading_pc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/threading_pc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.threading_pc" />
       <item itemvalue="Python.threading_condition" />
       <item itemvalue="Python.queue" />
       <item itemvalue="Python.queue_demo" />
       <item itemvalue="Python.doutula01" />
+      <item itemvalue="Python.doutula02" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.doutula02" />
         <item itemvalue="Python.doutula01" />
         <item itemvalue="Python.queue_demo" />
         <item itemvalue="Python.queue" />
         <item itemvalue="Python.threading_condition" />
-        <item itemvalue="Python.threading_pc" />
       </list>
     </recent_temporary>
   </component>
@@ -364,12 +694,12 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.31733525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1482808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39083558" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39083558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,7 +904,7 @@
     <entry file="file://$PROJECT_DIR$/day05/code/doutula01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
+          <caret line="22" column="55" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />
             <marker date="1554707338864" expanded="true" signature="124:748" ph="..." />
@@ -585,13 +915,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/code/doutula02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="336">
+          <caret line="44" column="11" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
           <folding>
             <element signature="e#17#32#0" expanded="true" />
-            <marker date="1554708805269" expanded="true" signature="500:1411" ph="..." />
-            <marker date="1554708805269" expanded="true" signature="555:810" ph="..." />
-            <marker date="1554708805269" expanded="true" signature="1422:1810" ph="..." />
+            <marker date="1554710658257" expanded="true" signature="546:1927" ph="..." />
+            <marker date="1554710658257" expanded="true" signature="601:856" ph="..." />
+            <marker date="1554710658257" expanded="true" signature="1938:2326" ph="..." />
           </folding>
         </state>
       </provider>

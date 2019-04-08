@@ -9,11 +9,13 @@ from queue import Queue
 import threading
 
 class ProducerTread(threading.Thread):
+    #接收页面url队列和 图片队列
+    #获取每个表情的url 并放到图片队列中
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36"
     }
     def __init__(self,page_queue,img_queue,*args,**kwargs):
-        super(ProducerTread.self).__init__(*args,**kwargs)
+        super(ProducerTread,self).__init__(*args,**kwargs)
         self.page_queue = page_queue
         self.img_queue = img_queue
 
@@ -39,8 +41,20 @@ class ProducerTread(threading.Thread):
             filename = alt+suffix
             self.img_queue.put((img_url,filename))
 class CustomerTread(threading.Thread):
+    #从图片队列中获取每个表情的url
+    #将它下载下来
+    def __init__(self,page_queue,img_queue,*args,**kwargs):
+        super(CustomerTread,self).__init__(*args,**kwargs)
+        self.page_queue = page_queue
+        self.img_queue = img_queue
+
     def run(self):
-        pass
+        while True:
+            if self.img_queue.empty() and self.page_queue.empty():
+                break
+            img_url,filename = self.img_queue.get()
+            request.urlretrieve(img_url,'images/'+filename)
+            print(filename+" 下载完成")
 
 
 def main():
