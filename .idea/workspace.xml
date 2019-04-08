@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day05/code/threading_condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/code/doutula01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/code/doutula02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day05/code/queue_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05/code/threading_demo1.py" beforeDir="false" afterPath="$PROJECT_DIR$/day05/code/threading_demo1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,14 +18,17 @@
     <SUITE FILE_PATH="coverage/python1812$qq.coverage" NAME="qq Coverage Results" MODIFIED="1554284731232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
     <SUITE FILE_PATH="coverage/python1812$quote.coverage" NAME="quote Coverage Results" MODIFIED="1554280894720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo1.coverage" NAME="threading_demo1 Coverage Results" MODIFIED="1554688246516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
+    <SUITE FILE_PATH="coverage/python1812$queue.coverage" NAME="queue Coverage Results" MODIFIED="1554705007525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$job51.coverage" NAME="job51 Coverage Results" MODIFIED="1554279645782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01/code/python3code" />
     <SUITE FILE_PATH="coverage/python1812$job51__1_.coverage" NAME="job51 (1) Coverage Results" MODIFIED="1554279983670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
     <SUITE FILE_PATH="coverage/python1812$tencent.coverage" NAME="tencent Coverage Results" MODIFIED="1554686204494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo.coverage" NAME="threading_demo Coverage Results" MODIFIED="1554687828594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$threading_condition.coverage" NAME="threading_condition Coverage Results" MODIFIED="1554694532612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$dytt01.coverage" NAME="dytt01 Coverage Results" MODIFIED="1554685817046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
+    <SUITE FILE_PATH="coverage/python1812$queue_demo.coverage" NAME="queue_demo Coverage Results" MODIFIED="1554705771097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$dytt.coverage" NAME="dytt Coverage Results" MODIFIED="1554371111886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/python1812$threading_pc.coverage" NAME="threading_pc Coverage Results" MODIFIED="1554693115432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
+    <SUITE FILE_PATH="coverage/python1812$doutula01.coverage" NAME="doutula01 Coverage Results" MODIFIED="1554707338878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$threading_lock.coverage" NAME="threading_lock Coverage Results" MODIFIED="1554689294178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo2.coverage" NAME="threading_demo2 Coverage Results" MODIFIED="1554688952963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
   </component>
@@ -40,52 +46,70 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="jpg" value="3" />
+          <entry key="py" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="Image" value="3" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="5" />
-          <entry key="py" value="3976" />
+          <entry key="dummy" value="10" />
+          <entry key="py" value="5502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="3976" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="5502" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day05/code/threading_pc.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day05/code/doutula02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="84" />
+            <state relative-caret-position="423">
+              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
-                <element signature="e#16#32#0" expanded="true" />
-                <marker date="1554692848240" expanded="true" signature="218:652" ph="..." />
-                <marker date="1554692848240" expanded="true" signature="691:1244" ph="..." />
-                <marker date="1554692848240" expanded="true" signature="1255:1432" ph="..." />
+                <element signature="e#17#32#0" expanded="true" />
+                <marker date="1554708805269" expanded="true" signature="500:1411" ph="..." />
+                <marker date="1554708805269" expanded="true" signature="555:810" ph="..." />
+                <marker date="1554708805269" expanded="true" signature="1422:1810" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day05/code/threading_condition.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day05/code/doutula01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="46" column="23" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
+            <state relative-caret-position="521">
+              <caret line="22" column="55" lean-forward="true" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
               <folding>
-                <element signature="e#16#32#0" expanded="true" />
+                <element signature="e#17#32#0" expanded="true" />
+                <marker date="1554707338864" expanded="true" signature="124:748" ph="..." />
+                <marker date="1554707338864" expanded="true" signature="759:874" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day05/code/queue_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="29" column="50" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="50" />
+              <folding>
+                <element signature="e#17#40#0" expanded="true" />
+                <marker date="1554705771078" expanded="true" signature="363:442" ph="..." />
+                <marker date="1554705771078" expanded="true" signature="453:608" ph="..." />
               </folding>
             </state>
           </provider>
@@ -114,11 +138,15 @@
         <option value="$PROJECT_DIR$/day04/dytt01.py" />
         <option value="$PROJECT_DIR$/day05/code/threading.py" />
         <option value="$PROJECT_DIR$/day05/code/threading_demo.py" />
-        <option value="$PROJECT_DIR$/day05/code/threading_demo1.py" />
         <option value="$PROJECT_DIR$/day05/code/threading_demo2.py" />
         <option value="$PROJECT_DIR$/day05/code/threading_lock.py" />
         <option value="$PROJECT_DIR$/day05/code/threading_pc.py" />
         <option value="$PROJECT_DIR$/day05/code/threading_condition.py" />
+        <option value="$PROJECT_DIR$/day05/code/threading_demo1.py" />
+        <option value="$PROJECT_DIR$/day05/code/queue.py" />
+        <option value="$PROJECT_DIR$/day05/code/queue_demo.py" />
+        <option value="$PROJECT_DIR$/day05/code/doutula01.py" />
+        <option value="$PROJECT_DIR$/day05/code/doutula02.py" />
       </list>
     </option>
   </component>
@@ -182,7 +210,73 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.threading_condition">
+  <component name="RunManager" selected="Python.doutula01">
+    <configuration name="doutula01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/doutula01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\www\crawler\python1812\day05\code\queue_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="queue_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/queue_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="threading_condition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python1812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,72 +291,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/threading_condition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="threading_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/threading_demo1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="threading_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/threading_demo2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="threading_lock" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day05/code" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day05/code/threading_lock.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,19 +322,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.threading_demo1" />
-      <item itemvalue="Python.threading_demo2" />
-      <item itemvalue="Python.threading_lock" />
       <item itemvalue="Python.threading_pc" />
       <item itemvalue="Python.threading_condition" />
+      <item itemvalue="Python.queue" />
+      <item itemvalue="Python.queue_demo" />
+      <item itemvalue="Python.doutula01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.doutula01" />
+        <item itemvalue="Python.queue_demo" />
+        <item itemvalue="Python.queue" />
         <item itemvalue="Python.threading_condition" />
         <item itemvalue="Python.threading_pc" />
-        <item itemvalue="Python.threading_lock" />
-        <item itemvalue="Python.threading_demo2" />
-        <item itemvalue="Python.threading_demo1" />
       </list>
     </recent_temporary>
   </component>
@@ -336,12 +364,12 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18051577" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.31733525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.49595687" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39083558" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/code/threading_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="143">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="36" selection-end-column="14" />
           <folding>
             <element signature="e#16#32#0" expanded="true" />
             <marker date="1554687828570" expanded="true" signature="60:242" ph="..." />
@@ -466,40 +494,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/code/threading_lock.py">
+    <entry file="file://$PROJECT_DIR$/day05/code/threading_demo1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="23" />
+        <state relative-caret-position="129">
+          <caret line="9" selection-start-line="9" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="e#16#32#0" expanded="true" />
+            <marker date="1554704028149" expanded="true" signature="83:442" ph="..." />
+            <marker date="1554704028149" expanded="true" signature="453:543" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/code/threading_demo2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="11" column="61" selection-end-line="19" />
-          <folding>
-            <marker date="1554689180826" expanded="true" signature="77:284" ph="..." />
-            <marker date="1554689180826" expanded="true" signature="295:385" ph="..." />
-          </folding>
+        <state relative-caret-position="378">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/code/threading_demo1.py">
+    <entry file="file://$PROJECT_DIR$/day05/code/threading_lock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="-25">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/threading_condition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-207">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="31" />
           <folding>
             <element signature="e#16#32#0" expanded="true" />
-            <marker date="1554688389530" expanded="true" signature="83:442" ph="..." />
-            <marker date="1554688389530" expanded="true" signature="453:543" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day05/code/threading_pc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="84" />
+        <state>
+          <caret selection-end-column="15" />
           <folding>
             <element signature="e#16#32#0" expanded="true" />
             <marker date="1554692848240" expanded="true" signature="218:652" ph="..." />
@@ -509,12 +543,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/code/threading_condition.py">
+    <entry file="file://$PROJECT_DIR$/day03/code/homework/biquge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="46" column="23" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="25" />
+        <state relative-caret-position="42">
+          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/images/你们有没有那种…穿衣还会乱叫的小电视.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/images/你们这群渣渣，都想进警察局是吧？.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/images/你仿佛在逗我笑.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/queue_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="50" />
           <folding>
-            <element signature="e#16#32#0" expanded="true" />
+            <element signature="e#17#40#0" expanded="true" />
+            <marker date="1554705771078" expanded="true" signature="363:442" ph="..." />
+            <marker date="1554705771078" expanded="true" signature="453:608" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/doutula01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+            <marker date="1554707338864" expanded="true" signature="124:748" ph="..." />
+            <marker date="1554707338864" expanded="true" signature="759:874" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05/code/doutula02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#17#32#0" expanded="true" />
+            <marker date="1554708805269" expanded="true" signature="500:1411" ph="..." />
+            <marker date="1554708805269" expanded="true" signature="555:810" ph="..." />
+            <marker date="1554708805269" expanded="true" signature="1422:1810" ph="..." />
           </folding>
         </state>
       </provider>

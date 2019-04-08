@@ -14,7 +14,7 @@ class DrawingThread(threading.Thread):
             print("%s 正在画图" % threading.current_thread())
             time.sleep(1)
 def main():
-    t1 = CodingThread()  #创建了两个进程
+    t1 = CodingThread()  #创建了两个线程
     t2 = DrawingThread()
     t1.start()
     t2.start()
