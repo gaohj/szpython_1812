@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day6/lagou.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day6/lagou_selenium.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day6/demo8.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day6/lagou_selenium.py" beforeDir="false" afterPath="$PROJECT_DIR$/day6/lagou_selenium.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +15,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python1812$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1554773187920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code/selenium" />
     <SUITE FILE_PATH="coverage/python1812$qq.coverage" NAME="qq Coverage Results" MODIFIED="1554284731232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
-    <SUITE FILE_PATH="coverage/python1812$lagou_selenium.coverage" NAME="lagou_selenium Coverage Results" MODIFIED="1554781261705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/python1812$lagou_selenium.coverage" NAME="lagou_selenium Coverage Results" MODIFIED="1554793783625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
+    <SUITE FILE_PATH="coverage/python1812$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1554787536986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo1.coverage" NAME="threading_demo1 Coverage Results" MODIFIED="1554688246516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$queue.coverage" NAME="queue Coverage Results" MODIFIED="1554705007525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
+    <SUITE FILE_PATH="coverage/python1812$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1554782262673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../day06/tesseract_test" />
     <SUITE FILE_PATH="coverage/python1812$job51.coverage" NAME="job51 Coverage Results" MODIFIED="1554279645782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01/code/python3code" />
     <SUITE FILE_PATH="coverage/python1812$job51__1_.coverage" NAME="job51 (1) Coverage Results" MODIFIED="1554279983670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
     <SUITE FILE_PATH="coverage/python1812$tencent.coverage" NAME="tencent Coverage Results" MODIFIED="1554686204494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
@@ -61,25 +63,25 @@
         <counts>
           <entry key="jpg" value="3" />
           <entry key="png" value="1" />
-          <entry key="py" value="57" />
+          <entry key="py" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="4" />
-          <entry key="Python" value="57" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="10" />
-          <entry key="py" value="7994" />
+          <entry key="py" value="9037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="7994" />
+          <entry key="Python" value="9037" />
         </counts>
       </usages-collector>
     </session>
@@ -90,23 +92,12 @@
         <entry file="file://$PROJECT_DIR$/day6/lagou_selenium.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="378">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <caret line="15" column="38" selection-end-line="91" selection-end-column="16" />
               <folding>
                 <element signature="e#17#47#0" expanded="true" />
-                <marker date="1554781866878" expanded="true" signature="119:1299" ph="..." />
-                <marker date="1554781866878" expanded="true" signature="215:300" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day6/demo2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="6" column="53" selection-start-line="6" selection-end-line="6" selection-end-column="53" />
-              <folding>
-                <element signature="e#17#47#0" expanded="true" />
+                <marker date="1554793761568" expanded="true" signature="338:3606" ph="..." />
+                <marker date="1554793761568" expanded="true" signature="499:627" ph="..." />
+                <marker date="1554793761568" expanded="true" signature="2466:2509" ph="..." />
               </folding>
             </state>
           </provider>
@@ -156,6 +147,7 @@
         <option value="$PROJECT_DIR$/day6/demo6.py" />
         <option value="$PROJECT_DIR$/day6/demo7.py" />
         <option value="$PROJECT_DIR$/day6/lagou.py" />
+        <option value="$PROJECT_DIR$/day6/demo8.py" />
         <option value="$PROJECT_DIR$/day6/lagou_selenium.py" />
       </list>
     </option>
@@ -187,6 +179,17 @@
             <path>
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python1812" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
+              <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -198,9 +201,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day06/tesseract_test/12306.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -215,7 +219,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.lagou_selenium">
-    <configuration name="demo5" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="12306" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python1812" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -223,34 +227,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../day06/tesseract_test" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo5.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="demo6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../day06/tesseract_test/12306.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,6 +255,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo8" type="PythonConfigurationType" factoryName="Python">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo8.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,8 +330,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.demo5" />
-      <item itemvalue="Python.demo6" />
+      <item itemvalue="Python.demo8" />
+      <item itemvalue="Python.12306" />
       <item itemvalue="Python.demo7" />
       <item itemvalue="Python.lagou" />
       <item itemvalue="Python.lagou_selenium" />
@@ -335,10 +339,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.lagou_selenium" />
+        <item itemvalue="Python.12306" />
         <item itemvalue="Python.lagou" />
         <item itemvalue="Python.demo7" />
-        <item itemvalue="Python.demo6" />
-        <item itemvalue="Python.demo5" />
       </list>
     </recent_temporary>
   </component>
@@ -373,7 +376,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39083558" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35444745" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -599,16 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day6/demo4.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="e#17#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day6/demo3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -619,38 +612,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day6/demo5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" selection-start-line="2" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="e#17#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day6/demo6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="7" selection-start-line="7" selection-end-line="9" />
-          <folding>
-            <element signature="e#17#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day6/baodi.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day6/demo7.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day6/lagou.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -665,21 +628,76 @@
     <entry file="file://$PROJECT_DIR$/day6/demo2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="6" column="53" selection-start-line="6" selection-end-line="6" selection-end-column="53" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="53" />
           <folding>
             <element signature="e#17#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/day6/demo8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="32" lean-forward="true" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day6/demo6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="7" selection-start-line="7" selection-end-line="9" />
+          <folding>
+            <element signature="e#17#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day6/demo7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day6/demo5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <element signature="e#17#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day6/demo4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#17#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day06/tesseract_test/12306.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/day6/lagou_selenium.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <caret line="15" column="38" selection-end-line="91" selection-end-column="16" />
           <folding>
             <element signature="e#17#47#0" expanded="true" />
-            <marker date="1554781866878" expanded="true" signature="119:1299" ph="..." />
-            <marker date="1554781866878" expanded="true" signature="215:300" ph="..." />
+            <marker date="1554793761568" expanded="true" signature="338:3606" ph="..." />
+            <marker date="1554793761568" expanded="true" signature="499:627" ph="..." />
+            <marker date="1554793761568" expanded="true" signature="2466:2509" ph="..." />
           </folding>
         </state>
       </provider>
