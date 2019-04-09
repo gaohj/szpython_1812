@@ -19,5 +19,6 @@ inputTag = driver.find_element(By.XPATH,"//*[@id='kw']")
 # inputTag = driver.find_element(By.CSS_SELECTOR,"//*[@id='kw']")
 #By 其实就是find_element_by_xpath 的一个简化步骤
 inputTag.send_keys("苍老师")
+inputTag.clear()
 time.sleep(5)
 driver.close()
