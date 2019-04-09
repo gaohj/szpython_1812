@@ -11,7 +11,7 @@ from selenium.webdriver.chrome.options import Options
 class LagouSpider(object):
     dirver_path = r"C:\www\chromedriver\chromedriver.exe"
     chromes_options = Options()
-    chromes_options.add_argument("--headless")
+    chromes_options.add_argument("--headless") #不用打开浏览器 就可以进行爬取
     def __init__(self):
         self.driver = webdriver.Chrome(executable_path=LagouSpider.dirver_path,chrome_options=LagouSpider.chromes_options)
         self.url = 'https://www.lagou.com/jobs/list_python?labelWords=&fromSearch=true&suginput='
