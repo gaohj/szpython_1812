@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day07/renren_login/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/wxapp/wxapp.json" beforeDir="false" afterPath="$PROJECT_DIR$/day07/wxapp/wxapp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/wxapp/wxapp/spiders/wxapp_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/wxapp/wxapp/spiders/wxapp_demo.py" afterDir="false" />
-    </list>
+    <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +55,7 @@
     <session id="-1095220613">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -206,7 +201,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="281" />
     <option name="y" value="67" />
     <option name="width" value="1024" />
@@ -228,27 +223,6 @@
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="renren_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="renren_login" type="462c0819:PsiDirectoryNode" />
-              <item name="renren_login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="renren_login" type="462c0819:PsiDirectoryNode" />
-              <item name="renren_login" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -457,9 +431,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17979942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17979942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
