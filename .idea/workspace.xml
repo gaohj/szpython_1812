@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/day07/qsbk/start.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/wxapp/start.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/qsbk/qsbk/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/qsbk/qsbk/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/qsbk/qsbk/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/qsbk/qsbk/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07/qsbk/qsbk/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/qsbk/qsbk/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/qsbk/duanzi.json" beforeDir="false" afterPath="$PROJECT_DIR$/day07/qsbk/duanzi.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07/qsbk/qsbk/spiders/qsbk_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/day07/qsbk/qsbk/spiders/qsbk_demo.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +22,7 @@
     <SUITE FILE_PATH="coverage/python1812$demo8.coverage" NAME="demo8 Coverage Results" MODIFIED="1554787536986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo1.coverage" NAME="threading_demo1 Coverage Results" MODIFIED="1554688246516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$queue.coverage" NAME="queue Coverage Results" MODIFIED="1554705007525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
-    <SUITE FILE_PATH="coverage/python1812$start.coverage" NAME="start Coverage Results" MODIFIED="1554868626041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07/qsbk" />
+    <SUITE FILE_PATH="coverage/python1812$start.coverage" NAME="start Coverage Results" MODIFIED="1554878535837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07/qsbk" />
     <SUITE FILE_PATH="coverage/python1812$12306.coverage" NAME="12306 Coverage Results" MODIFIED="1554782262673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../day06/tesseract_test" />
     <SUITE FILE_PATH="coverage/python1812$job51.coverage" NAME="job51 Coverage Results" MODIFIED="1554279645782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day01/code/python3code" />
     <SUITE FILE_PATH="coverage/python1812$job51__1_.coverage" NAME="job51 (1) Coverage Results" MODIFIED="1554279983670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day03/code/homework" />
@@ -33,6 +32,7 @@
     <SUITE FILE_PATH="coverage/python1812$dytt01.coverage" NAME="dytt01 Coverage Results" MODIFIED="1554685817046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/python1812$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1554778465750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/python1812$doutula01.coverage" NAME="doutula01 Coverage Results" MODIFIED="1554707338878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
+    <SUITE FILE_PATH="coverage/python1812$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1554880724045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07/wxapp" />
     <SUITE FILE_PATH="coverage/python1812$threading_lock.coverage" NAME="threading_lock Coverage Results" MODIFIED="1554689294178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1554773102741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code/selenium" />
     <SUITE FILE_PATH="coverage/python1812$doutula02.coverage" NAME="doutula02 Coverage Results" MODIFIED="1554710658270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
@@ -71,10 +71,11 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PNG" value="1" />
+          <entry key="cfg" value="1" />
           <entry key="jpg" value="3" />
-          <entry key="json" value="7" />
+          <entry key="json" value="9" />
           <entry key="png" value="2" />
-          <entry key="py" value="99" />
+          <entry key="py" value="114" />
           <entry key="txt" value="4" />
           <entry key="xml" value="1" />
         </counts>
@@ -82,22 +83,23 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Image" value="6" />
-          <entry key="JSON" value="7" />
+          <entry key="Ini" value="1" />
+          <entry key="JSON" value="9" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="99" />
+          <entry key="Python" value="114" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="py" value="10947" />
+          <entry key="py" value="11756" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="10947" />
+          <entry key="Python" value="11756" />
         </counts>
       </usages-collector>
     </session>
@@ -105,41 +107,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07/qsbk/start.py">
+        <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/spiders/wxapp_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07/qsbk/duanzi.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="48" column="38" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="38" />
-              <folding>
-                <marker date="1554867946393" expanded="true" signature="262:328" ph="..." />
-                <marker date="1554867946393" expanded="true" signature="357:395" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/spiders/qsbk_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -147,11 +118,54 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/settings.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="68" column="15" selection-start-line="67" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="297">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+              <folding>
+                <marker date="1554880721750" expanded="true" signature="297:432" ph="..." />
+                <marker date="1554880721750" expanded="true" signature="465:498" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-739">
+              <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07/wxapp/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/scrapy/exporters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="87" column="39" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="13" column="10" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="10" />
+              <folding>
+                <marker date="1554880387221" expanded="true" signature="198:226" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,9 +232,14 @@
         <option value="$PROJECT_DIR$/day07/qsbk/start.py" />
         <option value="$PROJECT_DIR$/day07/qsbk/qsbk.json" />
         <option value="$PROJECT_DIR$/day07/qsbk/qsbk/items.py" />
-        <option value="$PROJECT_DIR$/day07/qsbk/qsbk/pipelines.py" />
         <option value="$PROJECT_DIR$/day07/qsbk/qsbk/settings.py" />
+        <option value="$PROJECT_DIR$/day07/qsbk/qsbk/pipelines.py" />
         <option value="$PROJECT_DIR$/day07/qsbk/qsbk/spiders/qsbk_demo.py" />
+        <option value="$PROJECT_DIR$/day07/wxapp/wxapp/settings.py" />
+        <option value="$PROJECT_DIR$/day07/wxapp/wxapp/items.py" />
+        <option value="$PROJECT_DIR$/day07/wxapp/wxapp/spiders/wxapp_demo.py" />
+        <option value="$PROJECT_DIR$/day07/wxapp/start.py" />
+        <option value="$PROJECT_DIR$/day07/wxapp/wxapp/pipelines.py" />
       </list>
     </option>
   </component>
@@ -257,22 +276,7 @@
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
-              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
-              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
-              <item name="qsbk" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+              <item name="wxapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.start">
+  <component name="RunManager" selected="Python.start (1)">
     <configuration name="demo8" type="PythonConfigurationType" factoryName="Python">
       <module name="python1812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -395,6 +399,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day07/wxapp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day07/wxapp/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python1812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -417,43 +443,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="tesseract_demo2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day6" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/tesseract_demo2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.demo8" />
-      <item itemvalue="Python.tesseract_demo2" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.greenlet_demo" />
       <item itemvalue="Python.gevent_demo" />
       <item itemvalue="Python.start" />
+      <item itemvalue="Python.start (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start (1)" />
         <item itemvalue="Python.start" />
         <item itemvalue="Python.gevent_demo" />
         <item itemvalue="Python.greenlet_demo" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.tesseract_demo2" />
       </list>
     </recent_temporary>
   </component>
@@ -483,12 +487,12 @@
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.245702" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17979942" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.53504044" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4865229" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,37 +517,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day03/code/homework/biquge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/code/images/你们有没有那种…穿衣还会乱叫的小电视.jpg" />
-    <entry file="file://$PROJECT_DIR$/day05/code/images/你们这群渣渣，都想进警察局是吧？.jpg" />
-    <entry file="file://$PROJECT_DIR$/day05/code/images/你仿佛在逗我笑.jpg" />
-    <entry file="file://$PROJECT_DIR$/day05/code/queue_demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="29" column="50" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/code/doutula01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="22" column="55" selection-start-line="8" selection-end-line="22" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/code/doutula02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day05/bsbdj.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -741,11 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1890" />
-      </provider>
-    </entry>
     <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/scrapy/utils/response.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-77">
@@ -783,24 +751,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/scrapy/exporters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="48" column="38" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="38" />
+        <state relative-caret-position="966">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="32" />
           <folding>
             <marker date="1554867946393" expanded="true" signature="262:328" ph="..." />
             <marker date="1554867946393" expanded="true" signature="357:395" ph="..." />
@@ -808,33 +765,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/settings.py">
+    <entry file="file://$PROJECT_DIR$/day07/qsbk/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="68" column="15" selection-start-line="67" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="462">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day07/qsbk/duanzi.json">
+    <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/scrapy/http/request/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="229">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day07/qsbk/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/qsbk/duanzi.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="221" selection-start-line="221" selection-end-line="324" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/spiders/qsbk_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="210">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="34" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
+            <marker date="1554878525378" expanded="true" signature="452:461" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/qsbk/qsbk/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <marker date="1554880387221" expanded="true" signature="198:226" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/spiders/wxapp_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/scrapy/exporters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="87" column="39" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-739">
+          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/wxapp/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <marker date="1554880721750" expanded="true" signature="297:432" ph="..." />
+            <marker date="1554880721750" expanded="true" signature="465:498" ph="..." />
           </folding>
         </state>
       </provider>
