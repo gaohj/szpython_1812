@@ -1,72 +1,106 @@
-1. # Scrapy框架架构
+# Scrapy框架架构
 
-   ## Scrapy框架介绍：
+## Scrapy框架介绍：
 
-   写一个爬虫，需要做很多的事情。比如：发送网络请求、数据解析、数据存储、反反爬虫机制（更换ip代理、设置请求头等）、异步请求等。这些工作如果每次都要自己从零开始写的话，比较浪费时间。因此`Scrapy`把一些基础的东西封装好了，在他上面写爬虫可以变的更加的高效（爬取效率和开发效率）。因此真正在公司里，一些上了量的爬虫，都是使用`Scrapy`框架来解决。
+写一个爬虫，需要做很多的事情。比如：发送网络请求、数据解析、数据存储、反反爬虫机制（更换ip代理、设置请求头等）、异步请求等。这些工作如果每次都要自己从零开始写的话，比较浪费时间。因此`Scrapy`把一些基础的东西封装好了，在他上面写爬虫可以变的更加的高效（爬取效率和开发效率）。因此真正在公司里，一些上了量的爬虫，都是使用`Scrapy`框架来解决。
 
-   ## Scrapy架构图：
+## Scrapy架构图：
 
-   1. 流程图（1）：
-      ![scrapy_all](C:\Users\neyo\Desktop\scrapy\scrapy_all.png)
-   2. 流程图（2）：
-      
+1. 流程图（1）：
+   ![scrapy_all](C:\Users\neyo\Desktop\scrapy\scrapy_all.png)
+2. 流程图（2）：
+   
 
-   ## Scrapy![框架图](C:\Users\neyo\Desktop\scrapy\框架图.png)框架模块功能：
+## Scrapy![框架图](C:\Users\neyo\Desktop\scrapy\框架图.png)框架模块功能：
 
-   爬虫发送请求 并不是马上发出去  而是引擎 再 发给调度器 调度器接url  以后 将url生成request对象 存储到队列中  引擎从调度器种取出请求 再将请求扔给下载器   下载器拿到请求从网上下载数据 再将数据返回给引擎  引擎拿到数据 返回给爬虫   再进行分析  留下想要 的 再给 引擎    引擎再给管道   存到 redis 或者mysql 或者 mongodb种  引擎和下载器  之间 有中间件    爬虫和 引擎之间 也有中间件   
+1.爬虫发送请求 并不是马上发出去  而是引擎 
 
-   1. `Scrapy Engine（引擎）`：`Scrapy`框架的核心部分。负责在`Spider`和`ItemPipeline`、`Downloader`、`Scheduler`中间通信、传递数据等。
-   2. `Spider（爬虫）`：发送需要爬取的链接给引擎，最后引擎把其他模块请求回来的数据再发送给爬虫，爬虫就去解析想要的数据。这个部分是我们开发者自己写的，因为要爬取哪些链接，页面中的哪些数据是我们需要的，都是由程序员自己决定。
-   3. `Scheduler（调度器）`：负责接收引擎发送过来的请求，并按照一定的方式进行排列和整理，负责调度请求的顺序等。
-   4. `Downloader（下载器）`：负责接收引擎传过来的下载请求，然后去网络上下载对应的数据再交还给引擎。
-   5. `Item Pipeline（管道）`：负责将`Spider（爬虫）`传递过来的数据进行保存。具体保存在哪里，应该看开发者自己的需求。
-   6. `Downloader Middlewares（下载中间件）`：可以扩展下载器和引擎之间通信功能的中间件。
-   7. `Spider Middlewares（Spider中间件）`：可以扩展引擎和爬虫之间通信功能的中间件。
+2.再 发给调度器 调度器接收到url  以后 将url生成requests对象 存储到队列中
 
-   # Scrapy快速入门
+3.引擎从调度器种取出请求 
 
-   ## 安装和文档：
+4.引擎将requests对象 扔给下载器   
 
-   1. 安装：通过`pip install scrapy`即可安装。
-   2. Scrapy官方文档：<http://doc.scrapy.org/en/latest>
-   3. Scrapy中文文档：<http://scrapy-chs.readthedocs.io/zh_CN/latest/index.html>
+5.下载器拿到请求从网上下载数据 再将数据 组装成response对象返回给引擎  
 
-   > 注意：
-   >
-   > 1. 在`ubuntu`上安装`scrapy`之前，需要先安装以下依赖：
-   >    `sudo apt-get install python3-dev build-essential python3-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev`，然后再通过`pip install scrapy`安装。
-   > 2. 如果在`windows`系统下，提示这个错误`ModuleNotFoundError: No module named 'win32api'`，那么使用以下命令可以解决：`pip install pypiwin32`。
+6.引擎拿到response对象 返回给爬虫  
 
-   ## 快速入门：
+7.爬虫对数据再进行分析  留下想要 的 数据 再返回给 引擎
 
-   ### 创建项目：
+ 8.引擎再给管道   存到 redis 或者mysql 或者 mongodb中
 
-   要使用`Scrapy`框架创建项目，需要通过命令来创建。首先进入到你想把这个项目存放的目录。然后使用以下命令创建：
+ 引擎和下载器  之间 有中间件    爬虫和 引擎之间 也有中间件   
 
-   ```
-   scrapy startproject [项目名称]
-   ```
+1. `Scrapy Engine（引擎）`：`Scrapy`框架的核心部分。负责在`Spider`和`ItemPipeline`、`Downloader`、`Scheduler`中间通信、传递数据等。类似于汽车发动机
+2. `Spider（爬虫）`：发送需要爬取的链接给引擎，最后引擎把其他模块请求回来的数据再发送给爬虫，爬虫就去解析想要的数据。这个部分是我们开发者自己写的，因为要爬取哪些链接，页面中的哪些数据是我们需要的，都是由程序员自己决定。
+3. `Scheduler（调度器）`：负责接收引擎发送过来的请求，并按照一定的方式进行排列和整理，负责调度请求的顺序等。
+4. `Downloader（下载器）`：负责接收引擎传过来的下载请求，然后去网络上下载对应的数据再交还给引擎。
+5. `Item Pipeline（管道）`：负责将`Spider（爬虫）`传递过来的数据进行保存。具体保存在哪里，应该看开发者自己的需求。
+6. `Downloader Middlewares（下载中间件）`：可以扩展下载器和引擎之间通信功能的中间件。
+7. `Spider Middlewares（Spider中间件）`：可以扩展引擎和爬虫之间通信功能的中间件。
 
-   ### 目录结构介绍：
+# Scrapy快速入门
 
-   ![目录结构](C:\Users\neyo\Desktop\scrapy\目录结构.png)
+## 安装和文档：
+
+1. 安装：通过`pip install scrapy`即可安装。
+2. Scrapy官方文档：<http://doc.scrapy.org/en/latest>
+3. Scrapy中文文档：<http://scrapy-chs.readthedocs.io/zh_CN/latest/index.html>
+
+> 注意：
+>
+> 1. 在`ubuntu`上安装`scrapy`之前，需要先安装以下依赖：
+>   `sudo apt-get install python3-dev build-essential python3-pip libxml2-dev libxslt1-dev zlib1g-dev libffi-dev libssl-dev`，然后再通过`pip install scrapy`安装。
+> 2. 如果在`windows`系统下，提示这个错误`ModuleNotFoundError: No module named 'win32api'`，那么使用以下命令可以解决：`pip install pypiwin32`。
+> 3. 下载 Twisted-18.9.0-cp36-cp36m-win_amd64.whl 然后放到指定的目录下 纯英文 没权限限制   切换到这个目录  pip install Twisted-18.9.0-cp36-cp36m-win_amd64.whl    
+> 4. pip install scrapy  
+
+## 快速入门：
+
+### 创建项目：
+
+要使用`Scrapy`框架创建项目，需要通过命令来创建。首先进入到你想把这个项目存放的目录。然后使用以下命令创建：
+
+```
+scrapy startproject [项目名称]
+```
+
+### 目录结构介绍：
+
+![目录结构](C:\Users\neyo\Desktop\scrapy\目录结构.png)
 
 
    以下介绍下主要文件的作用：
 
-   1. items.py：用来存放爬虫爬取下来数据的模型。
-   2. middlewares.py：用来存放各种中间件的文件。
-   3. pipelines.py：用来将`items`的模型存储到本地磁盘中。
-   4. settings.py：本爬虫的一些配置信息（比如请求头、多久发送一次请求、ip代理池等）。
-   5. scrapy.cfg：项目的配置文件。
-   6. spiders包：以后所有的爬虫，都是存放到这个里面。
+      1. items.py：用来存放爬虫爬取下来数据的模型。
+      2. middlewares.py：用来存放各种中间件的文件。
+      3. pipelines.py：用来将`items`的模型存储到本地磁盘中。
+      4. settings.py：本爬虫的一些配置信息（比如请求头、多久发送一次请求、ip代理池等）。
+      5. scrapy.cfg：项目的配置文件。
+      6. spiders包：以后所有的爬虫，都是存放到这个里面。
+
+
+
+## 当引擎将下载组装的respons对象给 爬虫的时候   
+
+爬虫对数据进行分析  
+
+response.xpath() 详情 ctrl+鼠标点击 xpath 查看 其它的分析方法   返回的内容是 SelectorList 
+
+一下两个都是将其转成Unicode编码  并提取出来
+
+get() 返回的是Selector 中的第一个文本  
+
+getall()返回的是Selector 中的所有文本 是个列表
+
+
 
    ### 使用Scrapy框架爬取糗事百科段子：
 
    #### 使用命令创建一个爬虫：
 
    ```
-   scrapy gensipder qsbk "qiushibaike.com"
+   scrapy genspider qsbk "qiushibaike.com"
    ```
 
    创建了一个名字叫做`qsbk`的爬虫，并且能爬取的网页只会限制在`qiushibaike.com`这个域名下。
@@ -167,6 +201,81 @@
 
 
 
+## pipline 管道 用来将数据存储在文件或者数据库中  有三个方法是常用的    
+
+1. open_spider(self,spider) #当爬虫被打开的时候执行  
+
+2. ```
+   process_item(self, item, spider)当爬虫 有item 传递过来的时候 调用  
+   ```
+
+3.  close_spider(self,spider) #当爬虫关闭的时候调用
+
+
+
+
+
+### scrapy 导出器  JsonItemExporter 、JsonLinesItemExporter
+
+1.JsonItemExporter  
+
+> 每次把数据添加到内存中 最后统一写到磁盘中   好处存储的是一个满足json规则的数据  缺点：数据量大  耗内存  
+
+```
+from  scrapy.exporters import JsonItemExporter,JsonLinesItemExporter
+class QsbkPipeline(object):
+    def __init__(self):
+        self.fp = open("qsbk.json",'wb')
+        self.exporter = JsonItemExporter(self.fp,ensure_ascii=False,encoding='utf-8')
+        self.exporter.start_exporting()
+    def open_spider(self,spider):
+        print("爬虫开始了......")
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
+
+    def close_spider(self,spider):
+        self.fp.close()
+        print("爬虫结束了......")
+```
+
+2.JsonLinesItemExporter
+
+> 每次调用export_item 存到磁盘中 好处 不耗内存  直接持久化 安全  坏处  是每个字典是一行 整个文件不满足json规则   
+
+```
+from  scrapy.exporters import JsonLinesItemExporter
+class QsbkPipeline(object):
+    def __init__(self):
+        self.fp = open("duanzi.json",'wb')
+        self.exporter = JsonLinesItemExporter(self.fp,ensure_ascii=False,encoding='utf-8')
+    def open_spider(self,spider):
+        print("爬虫开始了......")
+    def process_item(self, item, spider):
+        self.exporter.export_item(item)
+        return item
+
+    def close_spider(self,spider):
+        self.fp.close()
+        print("爬虫结束了......")
+```
+
+
+
+### 糗事百科 分页  
+
+```
+ next_url = response.xpath("//ul[@class='pagination']/li[last()]/a/@href").get()
+        if not next_url:
+            return
+        else:
+            yield scrapy.Request(self.base_domain+next_url,callback=self.parse)
+```
+
+
+
+
+
 # CrawlSpider
 
 在上一个糗事百科的爬虫案例中。我们是自己在解析完整个页面后获取下一页的url，然后重新发送一个请求。有时候我们想要这样做，只要满足某个条件的url，都给我进行爬取。那么这时候我们就可以通过`CrawlSpider`来帮我们完成了。`CrawlSpider`继承自`Spider`，只不过是在之前的基础之上增加了新的功能，可以定义爬取的url的规则，以后scrapy碰到满足条件的url都进行爬取，而不用手动的`yield Request`。
@@ -178,7 +287,7 @@
 之前创建爬虫的方式是通过`scrapy genspider [爬虫名字] [域名]`的方式创建的。如果想要创建`CrawlSpider`爬虫，那么应该通过以下命令创建：
 
 ```
-scrapy genspider -c crawl [爬虫名字] [域名]
+scrapy genspider -t crawl [爬虫名字] [域名]
 ```
 
 ### LinkExtractors链接提取器：
@@ -240,8 +349,6 @@ class scrapy.spiders.Rule(
 ## 打开Scrapy Shell：
 
 打开cmd终端，进入到`Scrapy`项目所在的目录，然后进入到`scrapy`框架所在的虚拟环境中，输入命令`scrapy shell [链接]`。就会进入到scrapy的shell环境中。在这个环境中，你可以跟在爬虫的`parse`方法中一样使用了。
-
-
 
 
 
