@@ -17,6 +17,7 @@ class QsbkDemoSpider(scrapy.Spider):
         #get 将内容转成 Unicode编码 并提取出来
         for dz in duanzi_divs:
             author = dz.xpath(".//h2/text()").get().strip()
+            print(author)
             content = dz.xpath(".//div[@class='content']//text()").getall()
             content = "".join(content).strip()
             #数据解析回来  我们要交给pipline去处理 我们可以使用yield 收集信息 然后统一return返回

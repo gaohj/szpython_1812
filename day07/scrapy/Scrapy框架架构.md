@@ -287,6 +287,7 @@ class QsbkPipeline(object):
 之前创建爬虫的方式是通过`scrapy genspider [爬虫名字] [域名]`的方式创建的。如果想要创建`CrawlSpider`爬虫，那么应该通过以下命令创建：
 
 ```
+scrapy genspider  [爬虫名字] [域名] #原来是这样子  
 scrapy genspider -t crawl [爬虫名字] [域名]
 ```
 
