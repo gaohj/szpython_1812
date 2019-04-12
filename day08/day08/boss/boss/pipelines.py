@@ -8,7 +8,7 @@
 from scrapy.exporters import JsonLinesItemExporter
 class BossPipeline(object):
     def __init__(self):
-        self.fp = open('boss.josn','wb')
+        self.fp = open('boss.json','wb')
         self.exporter= JsonLinesItemExporter(self.fp,ensure_ascii=False)
     def process_item(self, item, spider):
         self.exporter.export_item(item)
