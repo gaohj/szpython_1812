@@ -16,4 +16,9 @@ class ArticleItem(scrapy.Item):
     origin_url = scrapy.Field()
     article_id = scrapy.Field()
     content = scrapy.Field()
+    read_count = scrapy.Field()
+    like_count = scrapy.Field()
+    word_count = scrapy.Field()
+    comment_count = scrapy.Field()
+    subjects = scrapy.Field()
 

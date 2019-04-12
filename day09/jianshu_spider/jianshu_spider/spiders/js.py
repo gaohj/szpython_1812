@@ -23,6 +23,11 @@ class JsSpider(CrawlSpider):
         url1 = url.split("?")[0]
         article_id = url1.split("/")[-1]
         content = response.xpath("//div[@class='show-content']").get()
+        read_count = int(response.xpath("//span[@class='views-count']/text()").get().split(" ")[-1])
+        like_count = int(response.xpath("//span[@class='likes-count']/text()").get().split(" ")[-1])
+        word_count = int(response.xpath("//span[@class='wordage']/text()").get().split(" ")[-1])
+        comment_count = int(response.xpath("//span[@class='comments-count']/text()").get().split(" ")[-1])
+        subjects = ",".join(response.xpath("//div[@class='include-collection']/a/div/text()").getall())
         item = ArticleItem(
             title=title,
             avatar=avatar,
@@ -31,5 +36,10 @@ class JsSpider(CrawlSpider):
             origin_url = response.url,
             article_id = article_id,
             content=content,
+            subjects=subjects,
+            read_count=read_count,
+            like_count=like_count,
+            word_count=word_count,
+            comment_count=comment_count
         )
         yield item

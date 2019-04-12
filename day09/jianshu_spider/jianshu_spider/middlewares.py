@@ -2,6 +2,10 @@ import random
 import json
 import requests
 from twisted.internet.defer import DeferredLock
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+import time
+from scrapy.http.response.html import HtmlResponse
 class UserAgentDownloadMiddleware(object):
     USER_AGENTS = [
         'Opera/9.80 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16',
@@ -16,3 +20,27 @@ class UserAgentDownloadMiddleware(object):
     def process_request(self,request,spider):
         user_agent = random.choice(self.USER_AGENTS)
         request.headers['User-Agent'] = user_agent
+
+class SeleniumDownloadMiddleware(object):
+    def __init__(self):
+        self.options = Options()
+        self.options.add_argument("--headless")
+        # self.options.add_argument("--proxy-server:http://ip:端口号")
+        self.driver = webdriver.Chrome(r'C:\www\chromedriver\chromedriver.exe')
+
+    def process_request(self,request,spider):
+        self.driver.get(request.url)
+        time.sleep(1)
+        try:
+            while True:
+                showMore =self.driver.find_element_by_class_name('show-more')
+                showMore.click()
+                time.sleep(0.5)
+                if not showMore:
+                    break
+        except:
+            pass
+        source = self.driver.page_source
+        #截获请求让chrome去发送 然后再返回
+        response = HtmlResponse(url=self.driver.current_url,body=source,request=request,encoding='utf-8')
+        return response

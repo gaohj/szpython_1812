@@ -55,6 +55,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
    'jianshu_spider.middlewares.UserAgentDownloadMiddleware': 543,
+   'jianshu_spider.middlewares.SeleniumDownloadMiddleware': 100,
 }
 
 # Enable or disable extensions
@@ -65,9 +66,10 @@ DOWNLOADER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'jianshu_spider.pipelines.JianshuSpiderPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   # 'jianshu_spider.pipelines.JianshuSpiderPipeline': 300,
+   'jianshu_spider.pipelines.JianshuTwistedSpiderPipeline': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
