@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac4f31c8-6b6d-4e54-bf41-0c7abd59e701" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09/fang/start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08/day08/doc/下载、请求中间件.md" beforeDir="false" afterPath="$PROJECT_DIR$/day08/day08/doc/下载、请求中间件.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/spiders/js.py" beforeDir="false" afterPath="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/spiders/js.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +34,7 @@
     <SUITE FILE_PATH="coverage/python1812$dytt01.coverage" NAME="dytt01 Coverage Results" MODIFIED="1554685817046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day04" />
     <SUITE FILE_PATH="coverage/python1812$demo6.coverage" NAME="demo6 Coverage Results" MODIFIED="1554778465750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/python1812$doutula01.coverage" NAME="doutula01 Coverage Results" MODIFIED="1554707338878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
-    <SUITE FILE_PATH="coverage/python1812$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1555055151680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09/jianshu_spider" />
+    <SUITE FILE_PATH="coverage/python1812$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1555057333393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09/jianshu_spider" />
     <SUITE FILE_PATH="coverage/python1812$threading_lock.coverage" NAME="threading_lock Coverage Results" MODIFIED="1554689294178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
     <SUITE FILE_PATH="coverage/python1812$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1554773102741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code/selenium" />
     <SUITE FILE_PATH="coverage/python1812$doutula02.coverage" NAME="doutula02 Coverage Results" MODIFIED="1554710658270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
@@ -57,7 +58,7 @@
     <SUITE FILE_PATH="coverage/python1812$demo2__1_.coverage" NAME="demo2 (1) Coverage Results" MODIFIED="1554775101428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/python1812$demo5.coverage" NAME="demo5 Coverage Results" MODIFIED="1554776812036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
     <SUITE FILE_PATH="coverage/python1812$boss_spider.coverage" NAME="boss_spider Coverage Results" MODIFIED="1554795019713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day6" />
-    <SUITE FILE_PATH="coverage/python1812$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1554886380341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day07/renren_login" />
+    <SUITE FILE_PATH="coverage/python1812$start__2_.coverage" NAME="start (2) Coverage Results" MODIFIED="1555061737265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day09/fang" />
     <SUITE FILE_PATH="coverage/python1812$threading_demo2.coverage" NAME="threading_demo2 Coverage Results" MODIFIED="1554688952963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/day05/code" />
   </component>
   <component name="DatabaseView">
@@ -78,7 +79,7 @@
     <session id="-1095220613">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="2" />
@@ -96,7 +97,7 @@
           <entry key="jpg" value="3" />
           <entry key="json" value="12" />
           <entry key="png" value="2" />
-          <entry key="py" value="183" />
+          <entry key="py" value="193" />
           <entry key="txt" value="4" />
           <entry key="xml" value="1" />
         </counts>
@@ -107,20 +108,20 @@
           <entry key="Ini" value="1" />
           <entry key="JSON" value="12" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="183" />
+          <entry key="Python" value="193" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="py" value="16433" />
+          <entry key="py" value="17725" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="16433" />
+          <entry key="Python" value="17725" />
         </counts>
       </usages-collector>
     </session>
@@ -128,63 +129,27 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/items.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding>
-                <marker date="1555055380447" expanded="true" signature="200:205" ph="..." />
-                <marker date="1555055380447" expanded="true" signature="200:569" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-                <marker date="1555052526418" expanded="true" signature="1166:1171" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="57" column="143" selection-start-line="57" selection-start-column="143" selection-end-line="57" selection-end-column="143" />
-              <folding>
-                <element signature="e#193#207#0" expanded="true" />
-                <marker date="1555055467006" expanded="true" signature="341:710" ph="..." />
-                <marker date="1555055467006" expanded="true" signature="747:907" ph="..." />
-                <marker date="1555055467006" expanded="true" signature="1319:1324" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/day09/fang/fang/spiders/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/spiders/js.py">
+        <entry file="file://$PROJECT_DIR$/day09/fang/fang/spiders/sfw.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="28" column="106" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="106" />
+            <state relative-caret-position="381">
+              <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day09/fang/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -210,10 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day6/demo4.py" />
-        <option value="$PROJECT_DIR$/day6/demo5.py" />
-        <option value="$PROJECT_DIR$/day6/demo6.py" />
-        <option value="$PROJECT_DIR$/day6/demo7.py" />
         <option value="$PROJECT_DIR$/day6/lagou.py" />
         <option value="$PROJECT_DIR$/day6/demo8.py" />
         <option value="$PROJECT_DIR$/day6/lagou_selenium.py" />
@@ -257,10 +218,14 @@
         <option value="$PROJECT_DIR$/day08/day08/boss/boss/middlewares.py" />
         <option value="$PROJECT_DIR$/day09/jianshu_spider/start.py" />
         <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/settings.py" />
-        <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py" />
-        <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/pipelines.py" />
         <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/items.py" />
         <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/spiders/js.py" />
+        <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/pipelines.py" />
+        <option value="$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py" />
+        <option value="$PROJECT_DIR$/day09/fang/fang/middlewares.py" />
+        <option value="$PROJECT_DIR$/day09/fang/fang/settings.py" />
+        <option value="$PROJECT_DIR$/day09/fang/start.py" />
+        <option value="$PROJECT_DIR$/day09/fang/fang/spiders/sfw.py" />
       </list>
     </option>
   </component>
@@ -291,46 +256,41 @@
             <path>
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day08" type="462c0819:PsiDirectoryNode" />
-              <item name="day08" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
-              <item name="day08" type="462c0819:PsiDirectoryNode" />
-              <item name="day08" type="462c0819:PsiDirectoryNode" />
-              <item name="boss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day09" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day09" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="fang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day09" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="fang" type="462c0819:PsiDirectoryNode" />
+              <item name="fang" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
               <item name="python1812" type="462c0819:PsiDirectoryNode" />
               <item name="day09" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
-              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="fang" type="462c0819:PsiDirectoryNode" />
+              <item name="fang" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python1812" type="462c0819:PsiDirectoryNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python1812" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python1812" type="462c0819:PsiDirectoryNode" />
+              <item name="day09" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
+              <item name="jianshu_spider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,7 +325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.start (1)">
+  <component name="RunManager" selected="Python.start (2)">
     <configuration name="demo8" type="PythonConfigurationType" factoryName="Python">
       <module name="python1812" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -380,28 +340,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day6/demo8.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="os_path_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python1812" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day08/bmw/bmw" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day08/bmw/bmw/os_path_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -446,6 +384,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09/jianshu_spider/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python1812" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/day09/fang" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/day09/fang/start.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -501,18 +461,18 @@
     <list>
       <item itemvalue="Python.demo8" />
       <item itemvalue="Python.start (3)" />
-      <item itemvalue="Python.os_path_demo" />
       <item itemvalue="Python.pipelines" />
       <item itemvalue="Python.start" />
       <item itemvalue="Python.start (1)" />
+      <item itemvalue="Python.start (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.start (2)" />
         <item itemvalue="Python.start (1)" />
         <item itemvalue="Python.start" />
         <item itemvalue="Python.start (3)" />
         <item itemvalue="Python.pipelines" />
-        <item itemvalue="Python.os_path_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +500,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19054441" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -595,44 +554,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/scrapy/exporters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="87" column="39" selection-start-line="87" selection-start-column="27" selection-end-line="87" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-739">
-          <caret line="45" column="1" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/wxapp/start.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07/wxapp/wxapp.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://C:/jiangxiligong/python1812_env/Lib/site-packages/parsel/selector.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="333" column="27" selection-start-line="333" selection-start-column="22" selection-end-line="333" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day07/renren_login/renren_login/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -833,59 +754,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/settings.py">
+    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="57" column="63" selection-start-line="57" selection-start-column="63" selection-end-line="57" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        <state relative-caret-position="353">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="34" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1555052526418" expanded="true" signature="1166:1171" ph="..." />
+            <marker date="1555056367556" expanded="true" signature="200:205" ph="..." />
+            <marker date="1555056367556" expanded="true" signature="200:569" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/start.py">
+    <entry file="file://C:/Python/Python36/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="858">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="57" column="143" selection-start-line="57" selection-start-column="143" selection-end-line="57" selection-end-column="143" />
+        <state relative-caret-position="87">
+          <caret line="57" column="190" selection-start-line="57" selection-start-column="180" selection-end-line="57" selection-end-column="190" />
           <folding>
             <element signature="e#193#207#0" expanded="true" />
-            <marker date="1555055467006" expanded="true" signature="341:710" ph="..." />
-            <marker date="1555055467006" expanded="true" signature="747:907" ph="..." />
-            <marker date="1555055467006" expanded="true" signature="1319:1324" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-          <folding>
-            <marker date="1555055380447" expanded="true" signature="200:205" ph="..." />
-            <marker date="1555055380447" expanded="true" signature="200:569" ph="..." />
+            <marker date="1555056969615" expanded="true" signature="341:710" ph="..." />
+            <marker date="1555056969615" expanded="true" signature="747:907" ph="..." />
+            <marker date="1555056969615" expanded="true" signature="1319:1324" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/spiders/js.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="28" column="106" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="106" />
+        <state relative-caret-position="59">
+          <caret line="28" column="34" selection-start-line="25" selection-start-column="21" selection-end-line="28" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/fang/fang/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1555057331929" expanded="true" signature="1166:1171" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/jianshu_spider/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="41" selection-start-line="41" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/fang/fang/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/jianshu_spider/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/fang/fang/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/fang/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="1" column="26" lean-forward="true" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09/fang/fang/spiders/sfw.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="54" column="24" lean-forward="true" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>

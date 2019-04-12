@@ -55,7 +55,7 @@ class JianshuTwistedSpiderPipeline(object):
     def sql(self):
         if not self._sql:
             self._sql = """
-               insert into article(id,title,content,avatar,author,pub_time,origin_url,article_id,read_count,like_count,word_count,comment_count,subjects) values (null,%s,%s,%s,%s,%s,%s,%s,%s)
+               insert into article(title,content,avatar,author,pub_time,origin_url,article_id,read_count,like_count,word_count,comment_count,subjects) values (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
 
                """
             return self._sql
@@ -66,6 +66,7 @@ class JianshuTwistedSpiderPipeline(object):
         defer.addErrback(self.handle_error,item, spider)
         #真正执行  和抛出错误需要另外的两个方法
     def insert_item(self,cursor,item):
+        print(item['read_count'],item['like_count'],item['word_count'],item['comment_count'])
         cursor.execute(self.sql,(item['title'], item['content'], item['avatar'], item['author'], item['pub_time'], item['origin_url'],item['article_id'],item['read_count'],item['like_count'],item['word_count'],item['comment_count'],item['subjects']))
 
     def handle_error(self,error,item,spider):

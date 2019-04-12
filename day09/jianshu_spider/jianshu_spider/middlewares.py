@@ -26,7 +26,7 @@ class SeleniumDownloadMiddleware(object):
         self.options = Options()
         self.options.add_argument("--headless")
         # self.options.add_argument("--proxy-server:http://ip:端口号")
-        self.driver = webdriver.Chrome(r'C:\www\chromedriver\chromedriver.exe')
+        self.driver = webdriver.Chrome(r'C:\www\chromedriver\chromedriver.exe',chrome_options=self.options)
 
     def process_request(self,request,spider):
         self.driver.get(request.url)

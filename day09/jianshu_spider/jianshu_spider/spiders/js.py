@@ -36,10 +36,11 @@ class JsSpider(CrawlSpider):
             origin_url = response.url,
             article_id = article_id,
             content=content,
-            subjects=subjects,
             read_count=read_count,
             like_count=like_count,
             word_count=word_count,
-            comment_count=comment_count
+            comment_count=comment_count,
+            subjects=subjects,
+
         )
         yield item
